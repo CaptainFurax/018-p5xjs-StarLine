@@ -25,7 +25,7 @@ function draw()
 
 function StarLine()
 {
-  stroke( "snow" );
+  stroke( [ 255, 127, 63 ] );
   strokeWeight( 1 );
   for( var s = 0; s < z/2; s += 20 ) {
     line( a[0].x, a[0].y + s, a[0].x + s, a[1].y );
