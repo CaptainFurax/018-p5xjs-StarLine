@@ -1,5 +1,6 @@
 p5.disableFriendlyErrors = true;
-function setup() {
+function setup()
+{
   frameRate(30);
   angleMode(DEGREES);
   pixelDensity(1);
@@ -8,7 +9,8 @@ function setup() {
   a = [ {x:0,y:-z/2},{x:z/2,y:0}, {x:0, y:z/2}, {x:-z/2, y:0} ];
 }
 
-function draw() {
+function draw()
+{
   background(0);
   push();
     translate(z/2,z/2)
