@@ -19,7 +19,6 @@ function draw()
   background(0);
   push();
     translate(z/2,z/2)
-    rotate(frameCount/2);
     StarLine();
   pop();
 }
