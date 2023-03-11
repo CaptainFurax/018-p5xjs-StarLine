@@ -1,3 +1,6 @@
+/*
+  A Simple Sketch which draw a star
+*/
 p5.disableFriendlyErrors = true;
 function setup()
 {
